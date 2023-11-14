@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="question.css">
+</head>
+<body onload="displayQuestion()">
+   <div class="cont">
+    <div class="quiz" style="padding-left: 20px;">
+            <h1>Your Questions</h1>
+            <h2>Q <span id="qno">1</span>. <span id="question">What command is used to manage different NodeJS veresions?</span></h2>
+            <ol type="A">
+                <li><input type="radio" name="answer" id="uans1"><span id="op1">npm</span></li><br>
+                <li><input type="radio" name="answer" id="uans2"><span id="op2">mvp</span></li><br>
+                <li><input type="radio" name="answer" id="uans3"><span id="op3">node</span></li><br>
+                <li><input type="radio" name="answer" id="uans4"><span id="op4">js</span></li>
+            </ol>
+
+    </div>
+
+   </div>
+   <div>
+    <button onclick="prevQuestion()"class="exam-button" id="prevbtn" style="display: none;">Previous</button>
+    <button onclick="nextQuestion()" class="exam-button" id="nextbtn" style="display: block;">Save & Next</button>
+    <button onclick="finishExam()" class="exam-button" id="finishbtn" style="display: none;">Finish</button>
+</div>
+
+<script src="exam.js"></script>
+</body>
+</html>

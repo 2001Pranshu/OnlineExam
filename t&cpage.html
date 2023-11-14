@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms and Service</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header dark-theme">
+
+        <ul class="header-options">
+    
+             <li class="title"> JIS EXAM </li>
+            <li class="option">About</li>
+            <li class="option">Details</li>
+            <li class="option">Contact</li>
+            <li class="option">Help</li>
+        </ul>
+    
+    </header>
+
+    <header class="header-mobile dark-theme">
+            <h3 class="title-mobile"> JIS Exam</h3>
+    </header>
+
+    <section id="terms-of-service">
+        <div class="card">
+            <h3 class="primary-heading">Introductions</h3>
+            <p class="paragraph">
+                1) All Questions are mandatory.
+                <br><br>
+                2) No negative marking.
+                <br><br>
+                3) Each Question having four points.
+                <br><br>
+                4) After selecting the answer must do "SAVE & NEXT".
+                <br><br>
+                5) After finishing the exam you have to click "SUBMIT" button to submit your answer.
+                
+        </div>
+       <button class="exam-button" onclick="startexam()">Start Exam</button>
+    </section>
+
+    <script>
+        function startexam(){
+            alert("Best of Luck")
+            window.location.href="question.html"
+
+        }
+        // setInterval(function(){
+        //     startexam();
+        // },2000)
+
+    </script>
+</body>
+</html>
